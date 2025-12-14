@@ -1,0 +1,36 @@
+Spring Framework:
+-----------------
+The Spring Framework provides a comprehensive programming and configuration model for 
+modern Java-based enterprise applications - on any kind of deployment platform.
+
+Spring Projects:
+----------------
+Spring boot, jpa, jdbc,...
+
+Spring First Code:
+------------------
+New Project --> Maven Archetype --> Add Archetype - quickStart
+
+IOC - Inversion of Control:
+--------------------------- 
+IoC (Inversion of Control) is a core design principle where the framework, not the developer's code, 
+takes control of object creation, configuration, and assembly.
+
+IOC and Dependency Injection:
+-----------------------------
+
+mvnrepository - Search Google --> Select latest Version --> Select dependency -- > add in pom.xml dependencies
+
+spring 6 bean configuration xml - in Google for XML Schema-based configuration
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+</beans>
+
+
