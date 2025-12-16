@@ -8,11 +8,10 @@
 
     <!-- bean definitions here -->
 
-    <bean id="st1" class="org.example.Student" autowire="byName">
-
+    <bean id="st1" class="org.example.Student" autowire="byType">
     </bean>
 
-    <bean id="writer" class="org.example.Pen">
+    <bean id="writer" class="org.example.Pen" primary="true">
     </bean>
 
     <bean id="st2" class="org.example.Student">
