@@ -9,7 +9,7 @@ Spring boot, jpa, jdbc,...
 
 Spring First Code:
 ------------------
-New Project --> Maven Archetype --> Add Archetype - quickStart
+New Project --> Maven Archetype --> Add catalog - Internal, Add Archetype - quickStart
 
 IOC - Inversion of Control:
 --------------------------- 
@@ -19,7 +19,7 @@ takes control of object creation, configuration, and assembly.
 IOC and Dependency Injection:
 -----------------------------
 
-mvnrepository - Search Google --> Select latest Version --> Select dependency -- > add in pom.xml dependencies
+mvnrepository - Search Google --> Search and select spring context - Select latest Version --> Select dependency -- > add in pom.xml dependencies and refresh m
 
 spring 6 bean configuration xml - in Google for XML Schema-based configuration
 
